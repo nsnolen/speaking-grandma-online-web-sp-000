@@ -1,4 +1,4 @@
-require. pry
+
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
 # Whatever you say to grandma, she should respond with
@@ -8,7 +8,6 @@ def speak_to_grandma(phrase)
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase.uppercase
     return "NO, NOT SINCE 1938!"
-binding.pry
   elsif phrase.capitalize
     return "No, NOT SINCE 1938!"
   else
